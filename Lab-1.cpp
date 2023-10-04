@@ -16,7 +16,7 @@ int main()
     printf("|         |          |\n");
     printf("----------------------\n");
 
-    for (x = 0.1; x <= 2.5; x+ = 0.1)
+    for (x = 0.1; x <= 2.5; x += 0.1)
     {
         y = x*x+2*M_PI*cos(M_PI)*x;
 
